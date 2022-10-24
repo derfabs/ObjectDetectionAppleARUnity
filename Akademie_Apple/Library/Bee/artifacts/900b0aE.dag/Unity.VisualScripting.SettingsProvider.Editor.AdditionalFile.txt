@@ -1,1 +1,1 @@
-/Users/fabianraith/Projekte/GitHub/Akademie_Apple
+/Users/fabianraith/Projekte/GitHub/ObjectDetectionAR/ObjectDetection/Akademie_Apple

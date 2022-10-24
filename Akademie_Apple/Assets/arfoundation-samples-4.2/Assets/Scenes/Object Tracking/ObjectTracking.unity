@@ -279,7 +279,7 @@ MonoBehaviour:
   - {fileID: 2066099839}
   - {fileID: 1487310245}
   debugText: {fileID: 1957171711}
-  debugging_Tags: {fileID: 0}
+  TagManager: {fileID: 0}
 --- !u!4 &562048578
 Transform:
   m_ObjectHideFlags: 0

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Raycaster.unity
+- path: Assets/arfoundation-samples-4.2/Assets/Scenes/Object Tracking/ObjectTracking.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
