@@ -10,7 +10,7 @@ public class Raycaster : MonoBehaviour
 
     public Camera playerCamera;
     public TMP_Text textDebug;
-    
+    public TMP_Text hitObjects;
     public GameObject hitGameObject;
     public GameObject previousHitGameObject;
 
@@ -24,10 +24,17 @@ public class Raycaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        hitObjects.text = "hitGameObject" + hitGameObject.name + "//previous:" + previousHitGameObject;
+
         if (Input.touchCount > 0)
         {
             textDebug.text = "TOUCHED";
             MakeRaycast();
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            textDebug.text = "Mouse";
+            MakeRaycastMouse();
         }
 
     }
@@ -44,14 +51,42 @@ public class Raycaster : MonoBehaviour
         if (Physics.Raycast(myRay.origin, myRay.direction, out hit, 25))
         {
             hitGameObject = hit.collider.gameObject;
-            textDebug.text = "object hit:" + hit.collider.gameObject.name;
+            //textDebug.text = "object hit:" + hit.collider.gameObject.name;
         }
         if ((hitGameObject != previousHitGameObject && hitGameObject.GetComponent<RaycastAction>() != null) || (previousHitGameObject == null && hitGameObject.GetComponent<RaycastAction>() != null))
         {
             
             hitGameObject.GetComponent<RaycastAction>().OnRaycastHit();
-            textDebug.text = "Raycast Action called";
-        }
+            textDebug.text = "Raycast Action called, Object hit: " + hit.collider.gameObject.name ;
+            previousHitGameObject = hitGameObject;
 
+        }
+        else
+        { textDebug.text = "Object hit before"; }
+
+    }
+
+    void MakeRaycastMouse()
+    {
+        textDebug.text = "raycast";
+        Vector3 ray = playerCamera.ScreenToWorldPoint(Input.mousePosition);
+        Ray myRay = playerCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if (Physics.Raycast(myRay.origin, myRay.direction, out hit, 25))
+        {
+            hitGameObject = hit.collider.gameObject;
+            //textDebug.text = "object hit:" + hit.collider.gameObject.name;
+        }
+        if ((hitGameObject != previousHitGameObject && hitGameObject.GetComponent<RaycastAction>() != null) || (previousHitGameObject == null && hitGameObject.GetComponent<RaycastAction>() != null))
+        {
+
+            hitGameObject.GetComponent<RaycastAction>().OnRaycastHit();
+            textDebug.text = "Raycast Action called, Object hit: " + hit.collider.gameObject.name;
+            previousHitGameObject = hitGameObject;
+
+        }
+        else
+        { textDebug.text = "Object hit before"; }
     }
 }

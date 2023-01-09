@@ -1,20 +1,23 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - MK.Toon.Editor.InstallWizard.Configuration
     Assembly-CSharp.dll:
     - ARFoundationHelperSettings
-    - MQTT_Controller
+    - AudioLoader
     - MQTT_Receiver
     - MQTT_Sender
-    - OSC
-    - OSC_Sender
-    - RaycastAction
+    - PositionReset
+    - PositionTest
     - Raycaster
+    - TrackedObjectManagerLink
+    - UnityEngine.XR.ARFoundation.Samples.PrefabImagePairManager
+    - moveto
     Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -23,6 +26,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
@@ -30,12 +35,19 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARPoseDriver
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    - UnityEngine.XR.ARFoundation.ARTrackedImageManager
+    - UnityEngine.XR.ARFoundation.ARTrackedObjectManager
     Unity.XR.ARKit.Editor.dll:
     - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
+    - UnityEngine.XR.ARKit.ARKitReferenceObjectEntry
+    Unity.XR.ARSubsystems.dll:
+    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+    - UnityEngine.XR.ARSubsystems.XRReferenceObjectLibrary
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -66,12 +78,19 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     UnityEngine.XR.MagicLeap.dll:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings
   serializedClasses:
+    Assembly-CSharp:
+    - UnityEngine.XR.ARFoundation.Samples.PrefabImagePairManager/NamedPrefab
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -87,8 +106,15 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
     - TMPro.VertexGradient
+    Unity.XR.ARSubsystems:
+    - UnityEngine.XR.ARSubsystems.SerializableDictionary`2/KeyValuePair[System.String,System.Byte[]]
+    - UnityEngine.XR.ARSubsystems.SerializableDictionary`2[System.String,System.Byte[]]
+    - UnityEngine.XR.ARSubsystems.SerializableGuid
+    - UnityEngine.XR.ARSubsystems.XRReferenceImage
+    - UnityEngine.XR.ARSubsystems.XRReferenceObject
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Pose
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -100,7 +126,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings/GLCache
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/Raycaster.unity:
+    Assets/Scenes/ObjectTracking.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -121,75 +147,111 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1734}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 1920}
+      Script: {instanceID: 1874}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 1962}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 4234}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 4690}
+      Script: {instanceID: 3462}
     - Class: 114
-      Script: {instanceID: 4876}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 5482}
+      Script: {instanceID: 4814}
     - Class: 114
-      Script: {instanceID: 5866}
+      Script: {instanceID: 4834}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 5422}
     - Class: 114
-      Script: {instanceID: 6926}
+      Script: {instanceID: 5450}
     - Class: 114
-      Script: {instanceID: 7534}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 7750}
+      Script: {instanceID: 5804}
     - Class: 114
-      Script: {instanceID: 7792}
+      Script: {instanceID: 6102}
     - Class: 114
-      Script: {instanceID: 7958}
+      Script: {instanceID: 6580}
     - Class: 114
-      Script: {instanceID: 8446}
+      Script: {instanceID: 6768}
     - Class: 114
-      Script: {instanceID: 8882}
+      Script: {instanceID: 6858}
     - Class: 114
-      Script: {instanceID: 8994}
+      Script: {instanceID: 6986}
     - Class: 114
-      Script: {instanceID: 9052}
+      Script: {instanceID: 6994}
     - Class: 114
-      Script: {instanceID: 10008}
+      Script: {instanceID: 7218}
     - Class: 114
-      Script: {instanceID: 10508}
+      Script: {instanceID: 7398}
     - Class: 114
-      Script: {instanceID: 10614}
+      Script: {instanceID: 7468}
     - Class: 114
-      Script: {instanceID: 11170}
+      Script: {instanceID: 7636}
+    - Class: 114
+      Script: {instanceID: 7686}
+    - Class: 114
+      Script: {instanceID: 7728}
+    - Class: 114
+      Script: {instanceID: 7894}
+    - Class: 114
+      Script: {instanceID: 8828}
+    - Class: 114
+      Script: {instanceID: 8938}
+    - Class: 114
+      Script: {instanceID: 8970}
+    - Class: 114
+      Script: {instanceID: 9950}
+    - Class: 114
+      Script: {instanceID: 9998}
+    - Class: 114
+      Script: {instanceID: 10726}
+    - Class: 114
+      Script: {instanceID: 11094}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -282,6 +344,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 3d91855891ded4a0c7e42f4485af6ead
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrackedObjectManagerLink
   - hash:
       serializedVersion: 2
       Hash: 1f2cec8b8db2240187e9e28372d46fa4
@@ -794,6 +862,12 @@ ScriptsOnlyBuild:
     className: ScreenSpaceJointVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 8adbcfe115e31d01d6dc49b9c9c303c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Position
+  - hash:
+      serializedVersion: 2
       Hash: e860a95284af40074bb7dc5ed54952f8
     assemblyName: Unity.XR.OpenXR.Features.RuntimeDebugger.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.RuntimeDebugger
@@ -1232,10 +1306,22 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 1a31bb0ea08d90a172d30f3a3366c0c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MQTT_Sender
+  - hash:
+      serializedVersion: 2
       Hash: 52bcb9c2a78bdd8d98a59e915c346e75
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
     className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 739f3a02655736f7af49a60a3b50cf8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TryoutLaptop
   - hash:
       serializedVersion: 2
       Hash: bcaee4c2a83047257b5f47d6ed264b75
@@ -1304,6 +1390,18 @@ ScriptsOnlyBuild:
     className: EnableGeoAnchors
   - hash:
       serializedVersion: 2
+      Hash: cfaa491378e39003470ba21a4af6ca54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: moveto
+  - hash:
+      serializedVersion: 2
+      Hash: 0aba43304a40f3c7725d8d1c63d0dcf1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioLoader
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1320,6 +1418,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bcbeeda8024cc733b4d2936a18bffe86
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MQTT_Receiver
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1368,6 +1472,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.XR.ARFoundation.Samples
     className: BackButton
+  - hash:
+      serializedVersion: 2
+      Hash: 85caf028a2312dc4c09335a5b8bf98bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PositionTest
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -1580,7 +1690,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 0d00439ca331fe6b26e1ef18746c12d4
+      Hash: a3caa43336f89d4901d75af85e8463b9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Raycaster
@@ -1598,7 +1708,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e5d993f6f1bb79a9ab54c5f2cbe960ad
+      Hash: 16b470176caa85fa315c8ede7e6a1d33
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RaycastAction
@@ -1892,12 +2002,6 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
-      Hash: bcbeeda8024cc733b4d2936a18bffe86
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MQTT_Receiver
-  - hash:
-      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
@@ -1920,12 +2024,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPlaneMeshVisualizer
-  - hash:
-      serializedVersion: 2
-      Hash: 5a2c48b2f8eed9ac86cde851cee09c53
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MQTT_Sender
   - hash:
       serializedVersion: 2
       Hash: c395ba5cbe76eabddd627cbc709da252
@@ -2042,23 +2140,17 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 1a7fe859393890cd483a5c15791d7eae
+      Hash: 47489939eaee7a8ecf1ae53a6070f35f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MQTT_Controller
+    className: PositionReset
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 8adbcfe115e31d01d6dc49b9c9c303c9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Position
   platform: 9
   scenePathNames:
-  - Assets/Scenes/Raycaster.unity
-  playerPath: /Users/fabianraith/Projekte/Dortmund/Unity/Akademie_Apple/builds/2
+  - Assets/Scenes/ObjectTracking.unity
+  playerPath: /Users/fabianraith/Projekte/GitHub/ObjectDetectionAR/ObjectDetection/Akademie_Apple/builds/2

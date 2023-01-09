@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Laptop
   - MQTTReceiver
+  - Debug3
+  - AudioPlayer
+  - Debug4
   layers:
   - Default
   - TransparentFX

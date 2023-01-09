@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/arfoundation-samples-4.2/Assets/Scenes/Object Tracking/ObjectTracking.unity
+- path: Assets/Scenes/ObjectTracking.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

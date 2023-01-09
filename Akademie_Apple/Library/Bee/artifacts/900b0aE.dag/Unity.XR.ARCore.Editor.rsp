@@ -350,6 +350,7 @@
 -r:"/Users/fabianraith/Projekte/GitHub/ObjectDetectionAR/ObjectDetection/Akademie_Apple/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"/Users/fabianraith/Projekte/GitHub/ObjectDetectionAR/ObjectDetection/Akademie_Apple/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"/Users/fabianraith/Projekte/GitHub/ObjectDetectionAR/ObjectDetection/Akademie_Apple/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Assets/Cineware by Maxon/Plugins/Editor/C4D2UnityEditor.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.XR.ARCore.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.XR.ARSubsystems.Editor.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.XR.ARSubsystems.ref.dll"

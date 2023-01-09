@@ -20,13 +20,13 @@ public class OSC_Sender : MonoBehaviour
     }
 
 
-    void Test()
+    public void Test()
     {
        
         OscMessage message;
 
         message = new OscMessage();
-        message.address = "/composition/columns/1/connect";
+        message.address = "/composition/layers/1/clips/1/connect";
         message.values.Add(1);
         //message.values.Add(2);
         //message.values.Add(3);
@@ -34,12 +34,15 @@ public class OSC_Sender : MonoBehaviour
             Debug.Log("Osc message sent");
     }
 
-    public void SwitchVideoToTwo()
+    public void Cat()
     {
         OscMessage message;
         message = new OscMessage();
-        message.address = "/composition/layers/clips/2/connect";
+        message.address = "/composition/layers/1/clips/2/connect";
         message.values.Add(1);
+        osc.Send(message);
+        Debug.Log("Osc message cat sent");
+
 
     }
      

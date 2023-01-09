@@ -1,15 +1,26 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ARFoundationHelperSettings
     - ScannedObjectManager
-    - TSObjectTracker
+    - TagManager
     - UnityEngine.XR.ARFoundation.Samples.BackButton
     Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
@@ -57,7 +68,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -66,6 +76,26 @@ ScriptsOnlyBuild:
     UnityEngine.XR.MagicLeap.dll:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings
   serializedClasses:
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
     Unity.XR.ARSubsystems:
     - UnityEngine.XR.ARSubsystems.XRReferenceObject
     UnityEngine.CoreModule:
@@ -73,6 +103,11 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Pose
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
@@ -85,7 +120,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings/GLCache
   methodsToPreserve: []
   sceneClasses:
-    Assets/arfoundation-samples-4.2/Assets/Scenes/Object Tracking/ObjectTracking.unity:
+    Assets/Scenes/ObjectTracking.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -104,7 +139,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 49
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -113,43 +148,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13316}
+      Script: {instanceID: 13636}
     - Class: 114
-      Script: {instanceID: 13424}
+      Script: {instanceID: 13746}
     - Class: 114
-      Script: {instanceID: 14724}
+      Script: {instanceID: 14464}
     - Class: 114
-      Script: {instanceID: 14954}
+      Script: {instanceID: 15066}
     - Class: 114
-      Script: {instanceID: 15008}
+      Script: {instanceID: 15296}
     - Class: 114
-      Script: {instanceID: 15402}
+      Script: {instanceID: 15350}
     - Class: 114
-      Script: {instanceID: 15648}
+      Script: {instanceID: 15754}
     - Class: 114
-      Script: {instanceID: 16260}
+      Script: {instanceID: 16006}
     - Class: 114
-      Script: {instanceID: 16618}
+      Script: {instanceID: 16630}
     - Class: 114
-      Script: {instanceID: 16878}
+      Script: {instanceID: 16650}
     - Class: 114
-      Script: {instanceID: 18592}
+      Script: {instanceID: 16990}
     - Class: 114
-      Script: {instanceID: 18746}
+      Script: {instanceID: 17224}
     - Class: 114
-      Script: {instanceID: 18904}
+      Script: {instanceID: 17252}
     - Class: 114
-      Script: {instanceID: 19026}
+      Script: {instanceID: 17598}
     - Class: 114
-      Script: {instanceID: 19068}
+      Script: {instanceID: 18632}
     - Class: 114
-      Script: {instanceID: 19692}
+      Script: {instanceID: 18996}
     - Class: 114
-      Script: {instanceID: 19782}
+      Script: {instanceID: 19154}
     - Class: 114
-      Script: {instanceID: 20116}
+      Script: {instanceID: 19222}
     - Class: 114
-      Script: {instanceID: 21206}
+      Script: {instanceID: 19314}
+    - Class: 114
+      Script: {instanceID: 19436}
+    - Class: 114
+      Script: {instanceID: 19478}
+    - Class: 114
+      Script: {instanceID: 20508}
+    - Class: 114
+      Script: {instanceID: 20548}
+    - Class: 114
+      Script: {instanceID: 20686}
+    - Class: 114
+      Script: {instanceID: 21654}
+    - Class: 114
+      Script: {instanceID: 21702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -245,6 +294,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 4e22e97004f8976187aad8e30f4a9238
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrackedObjectManagerLink
+  - hash:
+      serializedVersion: 2
       Hash: 1f2cec8b8db2240187e9e28372d46fa4
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.HID.Editor
@@ -285,6 +340,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.XR.ARFoundation.Samples
     className: HDRLightEstimation
+  - hash:
+      serializedVersion: 2
+      Hash: 47f3a443a5da5be3318af6c736a01617
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OSC_Receiver
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -395,6 +456,12 @@ ScriptsOnlyBuild:
     className: ARFace
   - hash:
       serializedVersion: 2
+      Hash: 54bc4dd180e6e79aeb282cfd6e1d1053
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayAnimationOnOffTracking
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -461,6 +528,12 @@ ScriptsOnlyBuild:
     className: CoroutineRunner
   - hash:
       serializedVersion: 2
+      Hash: 4286f618edbfb5e35f0fcaea89434e1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: M2MqttUnity
+    className: M2MqttUnityClient
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -503,6 +576,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: a4bd1478f17da256d952d87042fa9984
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: M2MqttUnity.Examples
+    className: M2MqttUnityTest
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -510,15 +589,15 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.VisualScripting.Core.dll
-    namespaceName: Unity.VisualScripting
-    className: UnityOnInputFieldEndEditMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
   - hash:
       serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
@@ -647,6 +726,12 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4776ca318c79fb6cf902ba98ab11571a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MK.RampCreator
+    className: MKRampCreator
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -669,6 +754,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 8fa476331fca1fbb419402f7795fe5c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NYImageTrackerManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -713,6 +804,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: b06caeb7f2049d8c14d4f94b7cd0852f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OSC
+  - hash:
+      serializedVersion: 2
       Hash: 8ab9295d94483c961936d82d233d3df2
     assemblyName: Unity.XR.Management.dll
     namespaceName: UnityEngine.XR.Management
@@ -725,6 +822,12 @@ ScriptsOnlyBuild:
     className: ScreenSpaceJointVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 8adbcfe115e31d01d6dc49b9c9c303c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Position
+  - hash:
+      serializedVersion: 2
       Hash: e860a95284af40074bb7dc5ed54952f8
     assemblyName: Unity.XR.OpenXR.Features.RuntimeDebugger.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.RuntimeDebugger
@@ -735,6 +838,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPlaneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NYImageTrackerEventHandler
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -851,7 +960,7 @@ ScriptsOnlyBuild:
     className: PlaceOnPlane
   - hash:
       serializedVersion: 2
-      Hash: e45ebd462181c115b870841f9d203f68
+      Hash: f9fb9714202b50265029b1d33db4b88b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScannedObjectManager
@@ -1013,6 +1122,12 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 47f3a443a5da5be3318af6c736a01617
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OSC_Sender
+  - hash:
+      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -1151,6 +1266,12 @@ ScriptsOnlyBuild:
     className: TransitionArmModel
   - hash:
       serializedVersion: 2
+      Hash: e5d993f6f1bb79a9ab54c5f2cbe960ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TryoutLaptop
+  - hash:
+      serializedVersion: 2
       Hash: bcaee4c2a83047257b5f47d6ed264b75
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1191,6 +1312,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1a7bf478686f9b2a14f524c902853b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MK.TextureChannelPacker
+    className: MKTextureChannelPacker
   - hash:
       serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
@@ -1263,6 +1390,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b86930461b608e0d7e9845dcfdde63a5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARFoundationHelperSettings
   - hash:
       serializedVersion: 2
       Hash: fc169718e5fd24cea7425f24908c0418
@@ -1451,6 +1584,12 @@ ScriptsOnlyBuild:
     className: InputActionAssetEditor
   - hash:
       serializedVersion: 2
+      Hash: 525986d143a59a230323d1f58ed17c99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TagManager
+  - hash:
+      serializedVersion: 2
       Hash: d3f29ba27f28c1f558880c4df5545ed3
     assemblyName: Unity.InputSystem.dll
     namespaceName: 
@@ -1481,6 +1620,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 0d00439ca331fe6b26e1ef18746c12d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Raycaster
+  - hash:
+      serializedVersion: 2
       Hash: 76aef43e801605d1829c8805eeee135c
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
@@ -1493,6 +1638,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e5d993f6f1bb79a9ab54c5f2cbe960ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RaycastAction
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1503,6 +1654,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 1683b75996e2502e296726af4c705618
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NYImageTracker
   - hash:
       serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
@@ -1715,6 +1872,12 @@ ScriptsOnlyBuild:
     className: ARWorldMapController
   - hash:
       serializedVersion: 2
+      Hash: 6f1a7bf478686f9b2a14f524c902853b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MK.MeshUtility
+    className: MKMeshUtility
+  - hash:
+      serializedVersion: 2
       Hash: 08ae446795e0c33497768c8d08f6e9cb
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.XR.ARFoundation.Samples
@@ -1763,6 +1926,12 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: bcbeeda8024cc733b4d2936a18bffe86
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MQTT_Receiver
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
@@ -1785,6 +1954,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPlaneMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 5a2c48b2f8eed9ac86cde851cee09c53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MQTT_Sender
   - hash:
       serializedVersion: 2
       Hash: c395ba5cbe76eabddd627cbc709da252
@@ -1901,11 +2076,17 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 1a7fe859393890cd483a5c15791d7eae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MQTT_Controller
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
   platform: 2
   scenePathNames:
-  - Assets/arfoundation-samples-4.2/Assets/Scenes/Object Tracking/ObjectTracking.unity
-  playerPath: /Users/fabianraith/Projekte/Dortmund/Unity/Akademie_Apple/builds/1/1.app
+  - Assets/Scenes/ObjectTracking.unity
+  playerPath: /Users/fabianraith/Projekte/GitHub/ObjectDetectionAR/ObjectDetection/Akademie_Apple/builds/1/arfoundation-samples-4.2.app

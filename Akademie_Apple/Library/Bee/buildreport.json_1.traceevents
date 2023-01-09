@@ -1,0 +1,589 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1666877507696057, "dur": 1249336, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666877507696445, "dur": 1206, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666877507697652, "dur": 30264, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666877507727920, "dur": 450431, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666877508178355, "dur": 765859, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666877508944227, "dur": 1167, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666877508945607, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1666877507859548, "dur": 281099, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666877507860159, "dur": 103709, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666877508127549, "dur": 2730, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666877508130280, "dur": 10364, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666877508131247, "dur": 9050, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666877508144969, "dur": 1016, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666877508143467, "dur": 2542, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666877508945680, "dur": 60, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666877508191272, "dur":744, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508192018, "dur":457, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666877508192487, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666877508192496, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666877508192571, "dur":247, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508192818, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938093, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938101, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938131, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938134, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938155, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938157, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938183, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938185, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938210, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938212, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938237, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938239, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938264, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938266, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938291, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938295, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938318, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938321, "dur":16, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508938350, "dur":1034, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666877508192516, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666877508192824, "dur":660, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666877508193489, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityMagicLeap.bundle_bbaq.info" }}
+,{ "pid":12345, "tid":1, "ts":1666877508193493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666877508193608, "dur":63, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityMagicLeap.bundle_bbaq.info" }}
+,{ "pid":12345, "tid":1, "ts":1666877508193672, "dur":4035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignDylibCopy builds/1/arfoundation-samples-4.2.app/Contents/PlugIns/UnityMagicLeap.bundle" }}
+,{ "pid":12345, "tid":1, "ts":1666877508197708, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666877508197831, "dur":249807, "ph":"X", "name": "MacOSCodeSignDylibCopy",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/PlugIns/UnityMagicLeap.bundle" }}
+,{ "pid":12345, "tid":1, "ts":1666877508447669, "dur":70018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignBundleInPlace builds/1/arfoundation-samples-4.2.app/Contents/MacOS/Akademie_Apple (+1 other)" }}
+,{ "pid":12345, "tid":1, "ts":1666877508517689, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666877508517783, "dur":420131, "ph":"X", "name": "MacOSCodeSignBundleInPlace",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MacOS/Akademie_Apple (+1 other)" }}
+,{ "pid":12345, "tid":1, "ts":1666877508937986, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1666877508937989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666877508192523, "dur":303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666877508192827, "dur":401, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666877508193228, "dur":256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666877508193491, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_o95k.info" }}
+,{ "pid":12345, "tid":2, "ts":1666877508193494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666877508193633, "dur":72, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_o95k.info" }}
+,{ "pid":12345, "tid":2, "ts":1666877508193706, "dur":4023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignDylibCopy builds/1/arfoundation-samples-4.2.app/Contents/Frameworks/UnityPlayer.dylib" }}
+,{ "pid":12345, "tid":2, "ts":1666877508197730, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666877508197771, "dur":249087, "ph":"X", "name": "MacOSCodeSignDylibCopy",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Frameworks/UnityPlayer.dylib" }}
+,{ "pid":12345, "tid":2, "ts":1666877508446929, "dur":491104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508192530, "dur":318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508192848, "dur":644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508193496, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1666877508193498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508193797, "dur":61, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1666877508193859, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1666877508193862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508193952, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1666877508194110, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666877508194114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508194196, "dur":339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666877508194556, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666877508194569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508194581, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666877508194713, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666877508195039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508195042, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666877508195301, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":3, "ts":1666877508195348, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508195417, "dur":182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":3, "ts":1666877508195608, "dur":1806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508197415, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508197437, "dur":109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508197547, "dur":997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508198554, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508198559, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508198825, "dur":1048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508199874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508199876, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508200044, "dur":1484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.ARFoundation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508201528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508201531, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.ARFoundation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508201636, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508201786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508201788, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508201940, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508202102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508202104, "dur":101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508202207, "dur":1528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508203747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508203750, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508205059, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508205494, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508205579, "dur":251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508205836, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508206000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508206002, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508206158, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508206284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508206287, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508206456, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508207009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508207011, "dur":216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508207229, "dur":4241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508211474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508211482, "dur":217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508211702, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508211827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508211829, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212104, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212252, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212349, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212634, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212781, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508212917, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508213083, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508213461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508213463, "dur":197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508213662, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508213733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508213735, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508213888, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214029, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214201, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214338, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214520, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214698, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214802, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508214856, "dur":381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666877508215247, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1666877508215795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666877508215797, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1666877508215922, "dur":722127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508192538, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508192852, "dur":658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508193510, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666877508193516, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508194247, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666877508194458, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666877508194735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508194737, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666877508194901, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666877508194904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508194906, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195021, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195026, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195228, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195277, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195413, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195541, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195842, "dur":100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508195943, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508196423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508196425, "dur":104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508196530, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508196698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508196700, "dur":99, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508196800, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508197064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508197075, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508197206, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508197314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508197317, "dur":106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508197438, "dur":1145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508198591, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508198597, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508198759, "dur":3065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508201825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508201843, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508201956, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508202132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508202134, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508202286, "dur":3052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508205339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508205341, "dur":276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508205625, "dur":2311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508207937, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508207939, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508208431, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508208902, "dur":209, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508209509, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508209935, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.InteractionSubsystems.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508210164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508210167, "dur":387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.InteractionSubsystems.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508210561, "dur":1854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508212416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508212418, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508212521, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508212700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508212702, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508212813, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508212962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508212964, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508213138, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508213354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508213356, "dur":255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508213613, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508213976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508213978, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508214130, "dur":865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508214995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508214997, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215129, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215134, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215320, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215327, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215349, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215471, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/Akademie_Apple_6z6j.info" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215476, "dur":382, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Akademie_Apple_6z6j.info" }}
+,{ "pid":12345, "tid":4, "ts":1666877508215858, "dur":722224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508192546, "dur":309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508192855, "dur":643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508193500, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":5, "ts":1666877508193520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508194194, "dur":233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":5, "ts":1666877508194462, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195085, "dur":256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195379, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText builds/1/arfoundation-samples-4.2.app/Contents/Info.plist" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195398, "dur":108, "ph":"X", "name": "WriteText",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Info.plist" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195506, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195560, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1666877508195691, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508196058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508196061, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508196165, "dur":895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508197061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508197063, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508197192, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508197407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508197409, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508197530, "dur":3279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508200817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508200820, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508200934, "dur":2793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508203728, "dur":89, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508204930, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508205287, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508205481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508205484, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508205739, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508205865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508205867, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508206085, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508206223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508206225, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508206386, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508206534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508206536, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508207135, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508207256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508207258, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508207384, "dur":1031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508208416, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508208589, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508209401, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508209610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508209612, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508209897, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508210696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508210698, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508210802, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508211442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508211445, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508211632, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508211925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508211927, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508212043, "dur":1512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508213556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508213558, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508213691, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508213887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508213889, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508213999, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508214104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508214108, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666877508214288, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1666877508214462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508214534, "dur":316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1666877508214852, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666877508214870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508214872, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666877508215196, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666877508215223, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508215310, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666877508215458, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1666877508215509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666877508215512, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1666877508215643, "dur":722413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508192553, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508192857, "dur":646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508193503, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/MainMenu.nib/designable.nib" }}
+,{ "pid":12345, "tid":6, "ts":1666877508193508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508193963, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/MainMenu.nib/designable.nib" }}
+,{ "pid":12345, "tid":6, "ts":1666877508194134, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1666877508194138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508194163, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1666877508194342, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666877508194762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508194765, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666877508194925, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666877508195194, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508195307, "dur":338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666877508195648, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508195843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508195848, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508195961, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508196092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508196095, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508196211, "dur":1395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508197607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508197609, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508197797, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508198332, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508198338, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508198940, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199100, "dur":220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199321, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199565, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199698, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199835, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508199966, "dur":1203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508201170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508201172, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508201307, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508201705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508201707, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508201864, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508202134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508202137, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508202273, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508202484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508202486, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508202598, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508203180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508203183, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508203399, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508203894, "dur":613, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508205045, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508205559, "dur":1161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508206721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508206723, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508206882, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508207487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508207489, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508207599, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508207926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508207928, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508208351, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508208483, "dur":119, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508208853, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508209536, "dur":986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508210536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508210539, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508210664, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508211439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508211441, "dur":218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508211663, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508211802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508211804, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508211955, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508212234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508212236, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508212330, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508212428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508212430, "dur":106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508212537, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508213195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508213197, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508213384, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508213697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508213699, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508213823, "dur":2237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508216061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666877508216063, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666877508216289, "dur":721724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508192561, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508192859, "dur":671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508193530, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1666877508193533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508194589, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1666877508194803, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1666877508195037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508195040, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1666877508195235, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":7, "ts":1666877508195307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508195421, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":7, "ts":1666877508195640, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508196492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508196494, "dur":90, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508196585, "dur":730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508197316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508197319, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508197454, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508197584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508197586, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508197726, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508198286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508198292, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508198777, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508199034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508199037, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508199404, "dur":1190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508200595, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508200597, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508200760, "dur":3052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508203813, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508203826, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508205066, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508205266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508205268, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508205437, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1666877508205474, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508205567, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1666877508205792, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508206459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508206462, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508206977, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508207372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508207374, "dur":387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508207765, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508207900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508208045, "dur":320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508208434, "dur":666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.ARSubsystems.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508209101, "dur":223, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508209448, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.ARSubsystems.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508209627, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508210291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508210294, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508210432, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508210940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508210942, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508211037, "dur":1647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508212685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508212723, "dur":99, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508212823, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508212970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508212973, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508213127, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508213277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508213279, "dur":287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508213581, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508213824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508213856, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508214190, "dur":1962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508216153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666877508216155, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666877508216357, "dur":721716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508192567, "dur":294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508192861, "dur":634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508193512, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":8, "ts":1666877508193515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508193958, "dur":263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194224, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194278, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194513, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194559, "dur":260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194833, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194840, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1666877508194960, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1666877508195101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508195117, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1666877508195375, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Frameworks/libMonoPosixHelper.dylib" }}
+,{ "pid":12345, "tid":8, "ts":1666877508195491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508195575, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Frameworks/libMonoPosixHelper.dylib" }}
+,{ "pid":12345, "tid":8, "ts":1666877508195714, "dur":1344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508197059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508197061, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508197213, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508197574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508197584, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508197737, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508198321, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508198330, "dur":552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508198888, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508199272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508199274, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508199410, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508199811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508199813, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508200185, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508200814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508200816, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508200972, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508201144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508201146, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508201273, "dur":1256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508202530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508202532, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508202658, "dur":1439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508204098, "dur":514, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508204649, "dur":415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508205199, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508205358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508205360, "dur":208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508205580, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508205932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508205934, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508206140, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508206757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508206759, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508206908, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508207032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508207034, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508207176, "dur":950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508208127, "dur":138, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508208462, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508209476, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508209683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508209686, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508209880, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508210216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508210218, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508210358, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508210832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508210835, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508210931, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508211672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508211674, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508211870, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508212073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508212075, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508212195, "dur":938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508213134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508213136, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508213327, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214030, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214183, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214352, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214473, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214659, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214789, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508214973, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1666877508215068, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1666877508215071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508215073, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1666877508215188, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666877508215191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508215255, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666877508215400, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1666877508216023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666877508216024, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"builds/1/arfoundation-samples-4.2.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1666877508216134, "dur":721926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666877508940469, "dur":375, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1666877508945750, "dur": 365, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666877508945570, "dur": 548, "ph": "X", "name": "Write chrome-trace events", "args": {} },
